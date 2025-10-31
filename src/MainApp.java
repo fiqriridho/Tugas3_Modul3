@@ -10,7 +10,8 @@ public class MainApp {
         item1.displayDetails();
         System.out.println();
 
-        item1.setStok(80);
+        System.out.println("=== Setelah SetStok ===");
+        item1.setStok(50);
         item1.displayDetails();
     }
 }
